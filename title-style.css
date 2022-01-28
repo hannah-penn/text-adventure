@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amita:wght@400;700&family=Just+Me+Again+Down+Here&family=Lancelot&display=swap");
+
+body {
+  align-items: center;
+  background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg");
+  background-repeat: repeat;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  width: 1536px;
+}
+
+.container {
+  align-items: center;
+  box-sizing: border-box;
+  height: 600px;
+  justify-items: center;
+  max-width: 70%;
+  width: 1000px;
+}
+
+#title {
+  background-color: rgb(191, 128, 255);
+  border: 3px solid rgb(218, 165, 32);
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  font-size: 80px;
+  margin-top: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.button-grid {
+  align-items: center;
+  background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png");
+  border: rgb(0, 0, 0) dotted 1px;
+  box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  margin-top: 200px;
+  padding: 10px;
+  width: 1000px;
+}
+
+#subtitle {
+  background-color: rgb(191, 128, 255);
+  border: 3px solid rgb(218, 165, 32);
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  margin: 10px 250px 50px 250px;
+  padding: 0 20px 20px 0;
+  text-align: center;
+  width: 500px;
+}
+
+.start-button-container {
+  align-items: center;
+  background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png");
+  border: rgb(0, 0, 0) dotted 1px;
+  box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  margin-left: 250px;
+  margin-top: 0px;
+  padding: 10px;
+  width: 500px;
+}
+
+.btn {
+  background-color: rgb(224, 196, 134);
+  border: rgb(0, 0, 0) solid 1px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+  opacity: 0.75;
+  padding: 5px;
+}
+
+#text {
+  box-sizing: border-box;
+  font-family: "Lancelot", cursive;
+  font-size: 30px;
+  line-height: 35px;
+}

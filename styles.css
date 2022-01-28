@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amita:wght@400;700&family=Just+Me+Again+Down+Here&family=Lancelot&display=swap");
+
+body {
+  align-items: center;
+  background-image: url("mushroomwallpaperbrown.jpg");
+  background-repeat: repeat;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+  width: auto;
+}
+
+.container {
+  align-items: center;
+  box-sizing: border-box;
+  height: 60vh;
+  justify-items: center;
+  min-width: 90%;
+}
+
+#title {
+  background-image: linear-gradient(rgb(191, 128, 255), rgb(127, 36, 163));
+  border: 3px solid rgb(218, 165, 32);
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  font-size: 80px;
+  margin-top: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#subtitle {
+  background-image: linear-gradient(rgb(127, 36, 163), rgb(191, 128, 255));
+  border: 3px solid rgb(218, 165, 32);
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  margin: 10px 250px 50px 250px;
+  text-align: center;
+  width: auto;
+  height: 50px;
+  line-height: 45px;
+}
+
+.button-grid {
+  align-items: center;
+  background-image: url("big-parchment.png");
+  /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+  border: rgb(0, 0, 0) dotted 1px;
+  box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+  max-width: 90%;
+}
+
+.start-button-container {
+  align-items: center;
+  background-image: url("big-parchment.png");
+  /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+  border: rgb(0, 0, 0) dotted 1px;
+  box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+  box-sizing: border-box;
+  display: grid;
+  justify-items: center;
+  margin-left: auto;
+  margin-top: 0px;
+  padding: 10px;
+  width: auto;
+}
+
+.btn {
+  background-color: rgb(224, 196, 134);
+  border: rgb(0, 0, 0) solid 1px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+  opacity: 0.75;
+  padding: 5px;
+}
+
+#text {
+  box-sizing: border-box;
+  font-family: "Lancelot", cursive;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    align-items: center;
+    background-image: url("mushroomwallpaperbrown.jpg");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg"); */
+    background-repeat: repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+  }
+
+  .container {
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+    justify-items: center;
+    max-width: 80%;
+    width: auto;
+    max-width: 750px;
+  }
+
+  #title {
+    background-image: linear-gradient(rgb(191, 128, 255), rgb(127, 36, 163));
+    border: 3px solid rgb(218, 165, 32);
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 70px;
+    margin-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #subtitle {
+    background-image: linear-gradient(rgb(127, 36, 163), rgb(191, 128, 255));
+    border: 3px solid rgb(218, 165, 32);
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    height: 50px;
+    line-height: 45px;
+  }
+
+  .button-grid {
+    align-items: center;
+    background-image: url("big-parchment.png");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+    border: rgb(0, 0, 0) dotted 1px;
+    box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    /* margin: auto; */
+    margin-top: 10px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .start-button-container {
+    align-items: center;
+    background-image: url("big-parchment.png");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+    border: rgb(0, 0, 0) dotted 1px;
+    box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    margin-top: 25px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .btn {
+    background-color: rgb(224, 196, 134);
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    opacity: 0.75;
+    padding: 5px;
+  }
+
+  #text {
+    box-sizing: border-box;
+    font-family: "Lancelot", cursive;
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    align-items: center;
+    background-image: url("mushroomwallpaperbrown.jpg");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg"); */
+    background-repeat: repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+  }
+
+  .container {
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+    justify-items: center;
+    max-width: 70%;
+    width: auto;
+  }
+
+  #title {
+    background-image: linear-gradient(rgb(191, 128, 255), rgb(127, 36, 163));
+    border: 3px solid rgb(218, 165, 32);
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 50px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #subtitle {
+    background-image: linear-gradient(rgb(127, 36, 163), rgb(191, 128, 255));
+    border: 3px solid rgb(218, 165, 32);
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    line-height: auto;
+  }
+
+  .button-grid {
+    align-items: center;
+    background-image: url("big-parchment.png");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+    border: rgb(0, 0, 0) dotted 1px;
+    box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .start-button-container {
+    align-items: center;
+    background-image: url("big-parchment.png");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+    border: rgb(0, 0, 0) dotted 1px;
+    box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    margin-top: 25px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .btn {
+    background-color: rgb(224, 196, 134);
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    opacity: 0.75;
+    padding: 5px;
+  }
+
+  #text {
+    box-sizing: border-box;
+    font-family: "Lancelot", cursive;
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    align-items: center;
+    background-image: url("mushroomwallpaperbrown.jpg");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg"); */
+    background-repeat: repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+  }
+
+  .container {
+    align-items: center;
+    box-sizing: border-box;
+    height: auto;
+    justify-items: center;
+    max-width: 90%;
+    width: auto;
+  }
+
+  #title {
+    background-color: rgb(191, 128, 255);
+    border: 3px solid rgb(218, 165, 32);
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 80px;
+    margin-top: 75px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .button-grid {
+    align-items: center;
+    background-image: url("big-parchment.png");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+    border: rgb(0, 0, 0) dotted 1px;
+    box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    width: auto;
+  }
+
+  #subtitle {
+    background-color: rgb(191, 128, 255);
+    border: 3px solid rgb(218, 165, 32);
+    box-sizing: border-box;
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    margin: auto;
+    padding: 0 20px 20px 0;
+    text-align: center;
+    width: 300px;
+  }
+
+  .start-button-container {
+    align-items: center;
+    background-image: url("big-parchment.png");
+    /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
+    border: rgb(0, 0, 0) dotted 1px;
+    box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display: grid;
+    justify-items: center;
+    margin-top: 25px;
+    padding: 10px;
+    width: auto;
+  }
+
+  .btn {
+    background-color: rgb(224, 196, 134);
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 0.5rem;
+    margin: 10px 0 10px 0;
+    opacity: 0.75;
+    padding: 5px;
+  }
+
+  #text {
+    box-sizing: border-box;
+    font-family: "Lancelot", cursive;
+    font-size: 0.4rem;
+    line-height: 11px;
+  }
+}
