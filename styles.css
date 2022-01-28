@@ -2,7 +2,7 @@
 
 body {
   align-items: center;
-  background-image: url("mushroomwallpaperbrown.jpg");
+  background-image: url("http://hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg");
   background-repeat: repeat;
   box-sizing: border-box;
   display: flex;
@@ -48,7 +48,7 @@ body {
 
 .button-grid {
   align-items: center;
-  background-image: url("big-parchment.png");
+  background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
   /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
   border: rgb(0, 0, 0) dotted 1px;
   box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -63,7 +63,7 @@ body {
 
 .start-button-container {
   align-items: center;
-  background-image: url("big-parchment.png");
+  background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
   /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
   border: rgb(0, 0, 0) dotted 1px;
   box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -98,7 +98,7 @@ body {
 @media only screen and (max-width: 800px) {
   body {
     align-items: center;
-    background-image: url("mushroomwallpaperbrown.jpg");
+    background-image: url("http://hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg");
     /* background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg"); */
     background-repeat: repeat;
     box-sizing: border-box;
@@ -146,7 +146,7 @@ body {
 
   .button-grid {
     align-items: center;
-    background-image: url("big-parchment.png");
+    background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
     /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
     border: rgb(0, 0, 0) dotted 1px;
     box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -161,7 +161,7 @@ body {
 
   .start-button-container {
     align-items: center;
-    background-image: url("big-parchment.png");
+    background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
     /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
     border: rgb(0, 0, 0) dotted 1px;
     box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -196,7 +196,7 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     align-items: center;
-    background-image: url("mushroomwallpaperbrown.jpg");
+    background-image: url("http://hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg");
     /* background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg"); */
     background-repeat: repeat;
     box-sizing: border-box;
@@ -244,7 +244,7 @@ body {
 
   .button-grid {
     align-items: center;
-    background-image: url("big-parchment.png");
+    background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
     /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
     border: rgb(0, 0, 0) dotted 1px;
     box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -259,7 +259,7 @@ body {
 
   .start-button-container {
     align-items: center;
-    background-image: url("big-parchment.png");
+    background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
     /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
     border: rgb(0, 0, 0) dotted 1px;
     box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -294,7 +294,7 @@ body {
 @media only screen and (max-width: 400px) {
   body {
     align-items: center;
-    background-image: url("mushroomwallpaperbrown.jpg");
+    background-image: url("http://hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg");
     /* background-image: url("www.hannahpenn.codes/text-adventure/mushroomwallpaperbrown.jpg"); */
     background-repeat: repeat;
     box-sizing: border-box;
@@ -317,7 +317,6 @@ body {
   #title {
     background-color: rgb(191, 128, 255);
     border: 3px solid rgb(218, 165, 32);
-    border-radius: 50px;
     box-sizing: border-box;
     font-family: "Amatic SC", cursive;
     font-size: 80px;
@@ -328,7 +327,7 @@ body {
 
   .button-grid {
     align-items: center;
-    background-image: url("big-parchment.png");
+    background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
     /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
     border: rgb(0, 0, 0) dotted 1px;
     box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -355,7 +354,7 @@ body {
 
   .start-button-container {
     align-items: center;
-    background-image: url("big-parchment.png");
+    background-image: url("http://hannahpenn.codes/text-adventure/big-parchment.png");
     /* background-image: url("www.hannahpenn.codes/text-adventure/big-parchment.png"); */
     border: rgb(0, 0, 0) dotted 1px;
     box-shadow: rgb(223, 192, 255) 0px 0px 10px 10px;
@@ -370,10 +369,10 @@ body {
   .btn {
     background-color: rgb(224, 196, 134);
     border: rgb(0, 0, 0) solid 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
     font-family: "Just Me Again Down Here", cursive;
-    font-size: 0.5rem;
+
     margin: 10px 0 10px 0;
     opacity: 0.75;
     padding: 5px;
@@ -382,7 +381,7 @@ body {
   #text {
     box-sizing: border-box;
     font-family: "Lancelot", cursive;
-    font-size: 0.4rem;
+
     line-height: 11px;
   }
 }

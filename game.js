@@ -1120,7 +1120,7 @@ const textNodes = [
   },
   {
     id: 83,
-    text: "Continuing on into the temple, the light from the entranceway fades, so you take a moment to illuminate your travel lantern. It wouldn't do to twist your ankle down here - especially since nobody knows where you are. You've been down in this temple's vault before, and despite your dwarven affinity for underground places and massive chunks of rock, not to mention your keen vision, it never fails to put a shiver up your spine.",
+    text: "Continuing on into the temple, the light from the entranceway fades, so you take a moment to illuminate your travel lantern. It wouldn't do to twist your ankle down here - especially since nobody knows where you are. You've been down in this temple's vault before, and despite your dwarven affinity for underground places and massive chunks of rock, not to mention your dwarven ability to see in dim light, it never fails to put a shiver up your spine.",
     options: [
       {
         text: "Proceed down the corridor into the temple crypt.",
@@ -1300,10 +1300,6 @@ const textNodes = [
         nextText: 85,
         setState: { TubesDone: true },
       },
-      {
-        text: "That'll do for now. You've had quite enough of this eerie dungeon - let's head back to Tiparos.",
-        nextText: 85,
-      },
     ],
   },
   {
@@ -1339,7 +1335,8 @@ const textNodes = [
       {
         text: "You really want to take one of these home to identify it, but how? You don't want to touch it without gloves, and you don't have any glass vials...",
         nextText: 101,
-        requiredState: (currentState) => currentState.noBottles,
+        requiredState: (currentState) =>
+          currentState.noBottles && !currentState.gotGloves,
       },
     ],
   },
@@ -1708,7 +1705,7 @@ const textNodes = [
   },
   {
     id: 128,
-    text: "Dwarven vision isn't the keenest, particularly in daylight, so you can't tell whether the guard staffing the gate is the same one who was there earlier as you approach the checkpoint booth. It's very likely - but not certain - that the shift has changed since you were last here, and a young dwarf all by herself, with a purple beard and a satchel bulging with mushrooms, isn't terribly inconspicuous.",
+    text: "Dwarves can't see that well in bright daylight, so you can't tell whether the guard staffing the gate is the same one who was there earlier as you approach the checkpoint booth. It's very likely - but not certain - that the shift has changed since you were last here, and a young dwarf all by herself, with a purple beard and a satchel bulging with mushrooms, isn't terribly inconspicuous.",
     options: [
       {
         text: "Take your chances and stroll casually through the gate. The guard might not spot you.",
@@ -2195,7 +2192,7 @@ const textNodes = [
   },
   {
     id: 164,
-    text: "You take a moment to think of something to say that won't sound rude, and settle on, 'Who are you?' The Aarokocra sighs and sits down opposite you, pulling her hood further over her face. 'My name is Egretta,' she says quietly, and you have to strain to catch her every word. 'I know your sister. Don't ask me how, I don't want to have to lie to you.' This is somewhat of a revelation - how on earth could your by-the-book sister Moggy know someone like this? 'She asked me to keep an eye on you today.' This gives you pause, because you certainly haven't seen Egretta anywhere; you're sure you would have noticed a five-foot bird following you around.",
+    text: "You take a moment to think of something to say that won't sound rude, and settle on, 'Who are you?' The Aarokocra sighs and sits down opposite you, pulling her hood further over her face. 'My name is Egretta,' she says quietly, and you have to strain to catch her every word. 'I'm a friend, trust me - I've been asked to keep an eye on you today.' This gives you pause, because you certainly haven't seen Egretta anywhere; you're sure you would have noticed a five-foot bird following you around.",
     options: [
       {
         text: "Ask her what she means - how could she have been following you?",
@@ -2215,7 +2212,7 @@ const textNodes = [
   },
   {
     id: 166,
-    text: "Egretta lets out a tuneful whistle and says, 'I've said too much already. Go home, Miracle, and please don't do anything stupid.' You've clearly been dismissed, because Egretta gets up and strides out of the door of the Dragon's Return without a backwards glance. You take a moment to collect your thoughts; who is Egretta, really? How does she know your sister? What did she mean by 'we'? This is a mystery you are determined to get to the bottom of, and for that you need to talk to Moggy. Following Egretta out of the door, you stop dead in your tracks - she's disappeared. She couldn't have been more than fifty paces ahead of you, but she is nowhere to be seen.",
+    text: "Egretta lets out a tuneful whistle and says, 'I've said too much already. Go home, Miracle, and please don't do anything stupid.' You've clearly been dismissed, because Egretta gets up and strides out of the door of the Dragon's Return without a backwards glance. You take a moment to collect your thoughts; who is Egretta, really? Who asked her to follow you? What did she mean by 'we'? This is a mystery, to the bottom of which you are determined to get. Following Egretta out of the door, you stop dead in your tracks - she's disappeared. She couldn't have been more than fifty paces ahead of you, but she is nowhere to be seen.",
     options: [
       {
         text: "This is getting more and more odd. Now you have more than one reason to hurry home.",
@@ -2264,7 +2261,7 @@ const textNodes = [
   },
   {
     id: 170,
-    text: "There's a throaty chuckling sound, then the beak opens and a croaking, singsong voice says, 'My my, didn't your parents teach you any manners?' This makes you blush and you realise how rude you've been. 'Sorry,' you say quickly, 'I just-' The bird-person waves away your apology and says, dropping her voice to a cawing, staccato whisper, 'No harm done. I'm Egretta, and you're Miracle! Pleasure to meet you, at last! I know your sister. Don't ask me how, I don't want to have to lie to you.' This is somewhat of a revelation - how on earth could your by-the-book sister Moggy know someone like this? 'She asked me to keep an eye on you today.' This gives you pause, because you certainly haven't seen Egretta anywhere; you're sure you would have noticed a five-foot bird following you around.'",
+    text: "There's a throaty chuckling sound, then the beak opens and a croaking, singsong voice says, 'My my, didn't your parents teach you any manners?' This makes you blush and you realise how rude you've been. 'Sorry,' you say quickly, 'I just-' The bird-person waves away your apology and says, dropping her voice to a cawing, staccato whisper, 'No harm done. I'm Egretta, and you're Miracle! Pleasure to meet you, at last! I'm a friend, trust me - I've been asked to keep an eye on you today.' This gives you pause, because you certainly haven't seen Egretta anywhere; you're sure you would have noticed a five-foot bird following you around.'",
     options: [
       {
         text: "Ask Egretta what she means - how could she have followed you without you noticing?",
@@ -2571,7 +2568,7 @@ const textNodes = [
   },
   {
     id: 196,
-    text: "'I know,' says Moggy, a hint of smugness around the set of her mouth. 'How do you know?' you say immediately. She looks at you appraisingly for a moment, then says, 'I have a couple of friends looking out for you.' It all falls into place. The person you met earlier must have been one of Moggy's so-called friends. 'But how do you know her?' you demand. Moggy just shakes her head, and ",
+    text: "'I know,' says Moggy, a hint of smugness around the set of her mouth. 'How do you know?' you say immediately. She looks at you appraisingly for a moment, then says, 'I have a couple of friends looking out for you.' It all falls into place. The person you met earlier must have been one of Moggy's so-called friends. 'But how do you know her?' you demand. Moggy just shakes her head, and her supercilious smirk is almost too much for you to stand.",
     options: [
       {
         text: "You snap, 'I know you're a druid! Tell me how you know Egretta!'",
@@ -2635,7 +2632,7 @@ const textNodes = [
   },
   {
     id: 201,
-    text: "Just before Miracle leaves, she says, 'Don't forget, you're meant to be cleaning the Magificence place this evening! Better not be late, eh?' You'd totally forgotten - the Bow-Down-Before-Lucene's-Magnificence family (the Magnificences, for short) don't live far from here, but you should get a move on all the same. The three of you need all the gold you can get; just owning a successful tavern isn't enough, since the Order tax you far beyond what's fair.",
+    text: "Just before Moggy leaves, she says, 'Don't forget, you're meant to be cleaning the Magificence place this evening! Better not be late, eh?' You'd totally forgotten - the Bow-Down-Before-Lucene's-Magnificence family (the Magnificences, for short) don't live far from here, but you should get a move on all the same. The three of you need all the gold you can get; just owning a successful tavern isn't enough, since the Order tax you far beyond what's fair.",
     options: [
       {
         text: "Grab your hat and put your boots back on, then hurry to the manor.",
@@ -2655,7 +2652,7 @@ const textNodes = [
   },
   {
     id: 203,
-    text: "You turn onto a wide street paved with shining cream-coloured stone (unlike the rough grey cobbles that make up the road outside the Rose and Respite), lined with opulent homes with rooves of real slate. Each one has a freshly painted front door, and some even have enough spare land on their property to grow ornamental shrubs (rather than using every available space to grow something edible). This is one of the areas of Tiparos where the prominent (and wealthy) Order members live, and it shows.",
+    text: "You turn onto a wide street paved with shining cream-coloured stone (unlike the rough grey cobbles that make up the road outside the Rose and Respite), lined with opulent homes with rooves of real slate. Each one has a freshly painted front door, and some even have enough spare land on their property for ornamental shrubs (rather than using every available space to grow something edible). This is one of the areas of Tiparos where the prominent (and wealthy) Order members live, and it shows.",
     options: [
       {
         text: "Approach the Magnificence place, fish out their doorkey from underneath the sundial, and go inside.",
@@ -2719,7 +2716,7 @@ const textNodes = [
   },
   {
     id: 998,
-    text: "Congratulations! You've successfully navigated the perils of Tiparos and its surrounding countryside and followed Miracle's Mycology Mishap right to the end. Would you like to restart, and see what else there is to find?",
+    text: "Congratulations! You've successfully navigated the perils of Tiparos and its surrounding countryside and followed Miracle's mycology mishap right to the end. Would you like to restart, and see what else there is to find?",
     options: [
       {
         text: "Yes - start again!",
