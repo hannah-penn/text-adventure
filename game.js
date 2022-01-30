@@ -104,7 +104,7 @@ const textNodes = [
   },
   {
     id: 5,
-    text: "Stopping for a moment to collect the lunch you prepared for yourself this morning, you head out of the the Rose & Respite - the pub owned by your older twin siblings, Moggy and Mortar. Which way now?",
+    text: "Stopping for a moment to collect the lunch you prepared for yourself this morning, you head out of the Rose & Respite - the pub owned by your older twin siblings, Moggy and Mortar. Which way now?",
     options: [
       {
         text: "Let's go the quickest route - to the west.",
@@ -214,7 +214,7 @@ const textNodes = [
         nextText: 18,
       },
       {
-        text: "You should double back to the Rose and Respite. If Moggy finds out about this she'll keep you scrubbing the cellar until mushroom season is over.",
+        text: "You should double back to the Rose & Respite. If Moggy finds out about this she'll keep you scrubbing the cellar until mushroom season is over.",
         nextText: 999,
       },
     ],
@@ -803,10 +803,10 @@ const textNodes = [
   },
   {
     id: 58,
-    text: "'Hmm,' the dryad rumbles, and she takes a deep sniff. 'No lie,' Could she possibly know whether or not you're lying from your...smell? 'Dwarf. Go. Take mushrooms. Go.' As you scrabble towards the entrance to the temple's lower levels, the dryad intones the sacred oath of Sylvanus, imploring you only to take what you need, in respect of his gifts.",
+    text: "'Hmm,' the dryad rumbles, and she takes a deep sniff. 'No lie,' Could she possibly know whether or not you're lying from your...smell? 'Dwarf. Go. Take mushrooms. Go.' As you scrabble towards the entrance to the temple's lower levels, the dryad intones the sacred oath of Sylvanus, imploring you only to take what you need, in respect of his gifts. Turning with a swishing of needle-like leaves, she moves towards the little copse behind the temple.",
     options: [
       {
-        text: "You feel a great surge of relief as you realise she is allowing you to leave, and you bow deeply to her before descending the stone steps.",
+        text: "You feel a great surge of relief as you realise she is allowing you to leave, and you bow deeply to her retreating form before descending the stone steps.",
         nextText: 70,
         setState: { heardPrayer: true },
       },
@@ -913,7 +913,7 @@ const textNodes = [
   },
   {
     id: 66,
-    text: "You barely finish your sentence before she says, 'Stone trees. There,' and gestures towards the east, where the towers of Tiparos rise in the distance. 'Go. Many folk. Fire. Food.' She is clearly telling you to leave, and you are in no mind to disobey - particularly as you now see other dryads watching from the copse of trees surrounding the temple. ",
+    text: "You barely finish your sentence before she says, 'Stone trees. There,' and gestures towards the east, where the towers of Tiparos rise in the distance. 'Go. Many folk. Fire. Food.' She is clearly telling you to leave, and you are in no mind to disobey - particularly as you now see other dryads watching from the copse of trees surrounding the temple. Turning with a swishing of needle-like leaves, the dryad lumbers towards the treeline.",
     options: [
       {
         text: "Count your lucky stars that you escaped this encounter without a scratch. Sylvanus must indeed have been watching over you today.",
@@ -1120,7 +1120,7 @@ const textNodes = [
   },
   {
     id: 83,
-    text: "Continuing on into the temple, the light from the entranceway fades, so you take a moment to illuminate your travel lantern. It wouldn't do to twist your ankle down here - especially since nobody knows where you are. You've been down in this temple's vault before, and despite your dwarven affinity for underground places and massive chunks of rock, not to mention your dwarven ability to see in dim light, it never fails to put a shiver up your spine.",
+    text: "Continuing on into the temple, the light from the entranceway fades, so you take a moment to illuminate your travel lantern. It wouldn't do to twist your ankle down here - especially since nobody knows where you are. You've been down in this temple's vault before, and despite your affinity for underground places and massive chunks of rock, not to mention your dwarven ability to see in dim light, it never fails to put a shiver up your spine.",
     options: [
       {
         text: "Proceed down the corridor into the temple crypt.",
@@ -1264,7 +1264,7 @@ const textNodes = [
     text: "You snatch up a handful of the unassuming little growths and cram them into your mouth, chewing vigorously. They're wonderful - juicy, fragrant, crisp as an apple, and even as your heartbeat slows and your breathing becomes laboured, you'd do anything for just one more taste.",
     options: [
       {
-        text: "'Memens should be avoided at all costs. The scent is different to every person, but they never fail in drawing in even the strongest-willed folk. Eating even one results in death.' - Fungi of the Far Realms, p.554",
+        text: "'Memens should be avoided at all costs. The scent is different to every person, but they rarely fail to draw in even the strongest-willed folk. Eating even one inevitably results in death.' - Fungi of the Far Realms, p.554",
         nextText: 999,
       },
     ],
@@ -1429,12 +1429,12 @@ const textNodes = [
     text: "Your dwarven heritage means that it takes your eyes a while to adjust to the harsh light of day outside the gloom of the temple, but you can't mistake the massive shape looming over you - twisted branches, cloven hooves, the uncanny feeling of being watched despite the figure having no face to speak of - blinking up at it, your eyes swim until you recognise the form of a dryad. She doesn't seem to be moving, and you wonder if she's actually awake.",
     options: [
       {
-        text: "You thank Sylvanus you heeded the dryad's warning and didn't take too many of the Amythyst Jawbreakers. You're sure that couldn't have ended well for you, even if you're reasonably certain this isn't the same dryad you met earlier.",
+        text: "You thank Sylvanus you heeded the other dryad's warning and didn't take too many of the Amythyst Jawbreakers. You're sure that couldn't have ended well for you, even if you're reasonably certain this isn't the same dryad you met earlier.",
         nextText: 107,
         requiredState: (currentState) => currentState.heardPrayer,
       },
       {
-        text: "The dryad doesn't seem to be aware of you. Edge past her, horribly aware that your clothes are stained with juice from the Jawbreaker fungus.",
+        text: "This dryad doesn't seem to be aware of you. Edge past her, horribly aware that your clothes are stained with juice from the Jawbreaker fungus.",
         nextText: 108,
         requiredState: (currentState) => currentState.gotGreedy,
       },
@@ -1448,7 +1448,7 @@ const textNodes = [
   },
   {
     id: 107,
-    text: "You hold your breath as you edge towards the looming figure. Gazing up at her, you can't help but feel a sense of wonder and curiosity wrapped up in your wariness. Dryads and druids have a long, long history of mututal respect (whether friendly or not), and you've never had the opportunity to form a friendship with one before.",
+    text: "You hold your breath as you edge towards the looming figure. Gazing up at her, you can't help but feel a sense of wonder and curiosity wrapped up in your wariness. Dryads and druids have a long, long history of mututal respect (whether friendly or merely cordial), and you've never had the opportunity to form a friendship with one before.",
     options: [
       {
         text: "Dryads are very dangerous and notoriously quick to anger, and you barely escaped your last encounter with your life! Navigate your way through the ruins, and hope that you have another chance to speak to a dryad on your next trip outside Tiparos.",
@@ -1622,7 +1622,7 @@ const textNodes = [
   },
   {
     id: 121,
-    text: "The dryad doesn't look disappointed, or even angry (honestly, you're not sure her spriggan face could actually make those expressions) - she simply resumes her usual height and begins slowly loping away to the nearby copse of trees without looking at you. You dearly hope you haven't offended her.",
+    text: "The dryad doesn't look disappointed, or even angry (honestly, you're not sure her spriggan face could actually form those expressions) - she simply resumes her usual height and begins slowly loping away to the nearby copse of trees without looking at you. You dearly hope you haven't offended her.",
     options: [
       {
         text: "That'll be something to consider next time you want to come to the temple - but for now, it's time to get home.",
@@ -1666,7 +1666,7 @@ const textNodes = [
   },
   {
     id: 125,
-    text: "You open your hand to drop the twig, but it seems to be stuck to you. You shake your hand vigorously, but the twig isn't just stuck to you - it's attached to you! Desperately trying to pull it off your hand, you only screech with pain as if you'd tried to pull out a handful of your own hair. The dryad gently touches the twig with a massive finger and...you can feel her, as if the little branch is part of your body. What in the Realms is happening?!",
+    text: "You open your hand to drop the twig, but it seems to be stuck to you. You shake your hand vigorously, but the twig isn't just stuck to you - it's attached to you! Desperately trying to pull it off your hand, you only screech with pain as if you'd tried to snap off your own finger. The dryad gently touches the twig and...you can feel her, as if the little branch is part of your body. What in the Realms is happening?!",
     options: [
       {
         text: "The twig seems to be - no, it can't be...growing? What has the dryad done?",
@@ -1705,7 +1705,7 @@ const textNodes = [
   },
   {
     id: 128,
-    text: "Dwarves can't see that well in bright daylight, so you can't tell whether the guard staffing the gate is the same one who was there earlier as you approach the checkpoint booth. It's very likely - but not certain - that the shift has changed since you were last here, and a young dwarf all by herself, with a purple beard and a satchel bulging with mushrooms, isn't terribly inconspicuous.",
+    text: "Dwarves can't see that well over distances in bright daylight, so you can't tell whether the guard staffing the gate is the same one who was there earlier as you approach the checkpoint booth. It's very likely - but not certain - that the shift has changed since you were last here, and a young dwarf all by herself, with a purple beard and a satchel bulging with mushrooms, isn't terribly inconspicuous.",
     options: [
       {
         text: "Take your chances and stroll casually through the gate. The guard might not spot you.",
@@ -2006,7 +2006,7 @@ const textNodes = [
   },
   {
     id: 150,
-    text: "The woman snaps the notebook shut and weighs it in her hand. 'Sister to Moggy and Miracle Gra'zithar, I presume?' she asks, and speaking a little louder than necessary, she continues at your nod, 'Of the Rose and Respite, of course. Well, I see no harm in returning your property, as you clearly haven't broken any laws in your research.' Her voice drops significantly as you reach for the book, scarcely believing your luck. 'Miracle, you must be more cautious. This is no game - you are in danger, and so is Moggy.' Before you can say anything, she hands over the book and points through the gate. 'Praise Lucene,' she says at a normal volume.",
+    text: "The woman snaps the notebook shut and weighs it in her hand. 'Sister to Moggy and Miracle Gra'zithar, I presume?' she asks, and speaking a little louder than necessary, she continues at your nod, 'Of the Rose & Respite, of course. Well, I see no harm in returning your property, as you clearly haven't broken any laws in your research.' Her voice drops significantly as you reach for the book, scarcely believing your luck. 'Miracle, you must be more cautious. This is no game - you are in danger, and so is Moggy.' Before you can say anything, she hands over the book and points through the gate. 'Praise Lucene,' she says at a normal volume.",
     options: [
       {
         text: "You have so many questions! But now isn't the time - you'd better go.",
@@ -2017,7 +2017,7 @@ const textNodes = [
   },
   {
     id: 151,
-    text: "The woman looks down at you from the raised desk of the checkpoint booth. 'Sister to Moggy and Miracle Gra'zithar, I presume?' she asks, raises her voice slightly, and continues, 'Of the Rose and Respite, of course. An honourable family. I was saddened when your parents fell to Lytheran,' Her voice drops significantly as she leans forward. 'Miracle, you must be more cautious. This is no game - you are in danger, and so is Moggy. Quick - go straight home.' She points towards the city with one elegant finger. 'Praise Lucene,' she says at a normal volume.",
+    text: "The woman looks down at you from the raised desk of the checkpoint booth. 'Sister to Moggy and Miracle Gra'zithar, I presume?' she asks, raises her voice slightly, and continues, 'Of the Rose & Respite, of course. An honourable family. I was saddened when your parents fell to Lytheran,' Her voice drops significantly as she leans forward. 'Miracle, you must be more cautious. This is no game - you are in danger, and so is Moggy. Quick - go straight home.' She points towards the city with one elegant finger. 'Praise Lucene,' she says at a normal volume.",
     options: [
       {
         text: "You have so many questions! But now isn't the time - you'd better go.",
@@ -2044,7 +2044,7 @@ const textNodes = [
   },
   {
     id: 153,
-    text: "Today must be a lucky day - you know that your research is risky, skipping an assembly for an excursion even more so, and you're extremely glad you didn't get in any serious trouble this time. Having made a quick check of your satchel and numerous pockets, you make a bee-line for the Rose and Respite. Hopefully you won't have to answer any awkward questions from Moggy and Mortar about where you've been. It's the busiest time of day for taverns, so hopefully they'll be otherwise engaged.",
+    text: "Today must be a lucky day - you know that your research is risky, skipping an assembly for an excursion even more so, and you're extremely glad you didn't get in any serious trouble this time. Having made a quick check of your satchel and numerous pockets, you make a bee-line for the Rose & Respite. Hopefully you won't have to answer any awkward questions from Moggy and Mortar about where you've been. It's the busiest time of day for taverns, so hopefully they'll be otherwise engaged.",
     options: [
       {
         text: "Take the back entrance and attempt to sneak past your siblings.",
@@ -2383,6 +2383,7 @@ const textNodes = [
       {
         text: "Open the door and step in! Potato's collection of trinkets is second to none.",
         nextText: 181,
+        setState: { metPotato: true },
       },
     ],
   },
@@ -2432,7 +2433,7 @@ const textNodes = [
   },
   {
     id: 185,
-    text: "The streets of Tiparos are usually abuzz on the evening after an assembly, and today is no exception. Threading your way carefully along the cobblestones, being careful to avoid the groups of people spilling out of the door of your family pub (a good sign: this crowd is sure to be keeping your siblings very busy indeed), you nip around to the back of the Rose and Respite and ease the heavy wooden door open. Phew - no sign of Moggy or Mortar.",
+    text: "The streets of Tiparos are usually abuzz on the evening after an assembly, and today is no exception. Threading your way carefully along the cobblestones, being careful to avoid the groups of people spilling out of the door of your family pub (a good sign: this crowd is sure to be keeping your siblings very busy indeed), you nip around to the back of the Rose & Respite and ease the heavy wooden door open. Phew - no sign of Moggy or Mortar.",
     options: [
       {
         text: "Slip quietly up the stairs and into your room. You're an expert at sneaking around, so you manage to avoid every creaking step.",
@@ -2497,6 +2498,7 @@ const textNodes = [
       {
         text: "In a fraction of a second, your mind whizzes through possible answers and settles on a half-truth. 'Just visiting Potato,'",
         nextText: 191,
+        requiredState: (currentState) => metPotato,
       },
       {
         text: "There's no way she would be in your room waiting for you during a post-assembly rush unless she already knew. 'I went to the temple.'",
@@ -2652,7 +2654,7 @@ const textNodes = [
   },
   {
     id: 203,
-    text: "You turn onto a wide street paved with shining cream-coloured stone (unlike the rough grey cobbles that make up the road outside the Rose and Respite), lined with opulent homes with rooves of real slate. Each one has a freshly painted front door, and some even have enough spare land on their property for ornamental shrubs (rather than using every available space to grow something edible). This is one of the areas of Tiparos where the prominent (and wealthy) Order members live, and it shows.",
+    text: "You turn onto a wide street paved with shining cream-coloured stone (unlike the rough grey cobbles that make up the road outside the Rose & Respite), lined with opulent homes with rooves of real slate. Each one has a freshly painted front door, and some even have enough spare land on their property for ornamental shrubs (rather than using every available space to grow something edible). This is one of the areas of Tiparos where the prominent (and wealthy) Order members live, and it shows.",
     options: [
       {
         text: "Approach the Magnificence place, fish out their doorkey from underneath the sundial, and go inside.",
@@ -2706,7 +2708,7 @@ const textNodes = [
   },
   {
     id: 208,
-    text: "In your panic and desperation to get away from the manor, you forget to lock the door - but that's the furthest thing from your mind right now. You need help! This is a big city, and there must be adventrers around who are used to dealing with possessed household objects. Running as fast as you can, you turn a corner onto the street where the Sickle Moon is located. Taverns always have freshly minted heroes looking for something to do, and as luck would have it, a group of likely-looking individuals have just spilled onto the pavement.",
+    text: "In your panic and desperation to get away from the manor, you forget to lock the door - but that's the furthest thing from your mind right now. You need help! This is a big city, and there must be adventurers around who are used to dealing with possessed household objects. Running as fast as you can, you turn a corner onto the street where the Sickle Moon is located. Taverns always have freshly minted heroes looking for something to do, and as luck would have it, a group of likely-looking individuals have just spilled onto the pavement.",
     options: [
       {
         text: "'Help! There's- I don't know what happened - the armour is alive! Please, you have to help!' you cry, pointing towards the house. They look at you, eyes bright, and start towards the Magnificence manor.",
